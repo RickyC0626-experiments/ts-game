@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES6",
+        "outDir": "./dist/",
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+        "lib": [
+            "ESNext",
+            "ESNext.AsyncIterable",
+            "DOM"
+        ],
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "strictPropertyInitialization": false,
+        "allowJs": true,
+        "sourceMap": true,
+        "strict": true,
+        "baseUrl": "src",
+        "paths": {
+            "@/*": [
+                "./*"
+            ]
+        },
+        "types": [
+            "jest"
+        ],
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
